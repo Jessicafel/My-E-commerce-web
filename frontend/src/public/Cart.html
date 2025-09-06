@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bread</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="navlogo">
+                <img src="image/logo.png" class="logo">
+            </a>
+            <ul class="navmenu">
+                <li class="navhome">
+                    <a href="index.html" class="navlink">Home</a>
+                </li>
+                <li class="navproduct">
+                    <a href="Products.html" class="navlink">Products</a>
+                </li>
+                <li class="navabout">
+                    <a href="Order.html" class="navlink">Orders</a>
+                </li>
+                <li class="navcart">
+                    <a href="Cart.html" class="navlink">Cart</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="products-container"></div>
+        <div id="cart-summary"></div>
+    </main>
+    <section class="btn">
+        <button class="clear">Clear</button>
+        <button class="wardrobe">Wardrobe</button>
+    </section>
+    <section class="show-wardrobe">
+        <div id="mix-and-match">
+          <button class="wardrobeclear">Clear</button> 
+          <div id="wardrobe-items"></div>
+          <div class="wardrobe-instructions">
+            <p>Drag and drop to move item</p>
+            <p><kbd>Shift</kbd> + right click to increase size</p>
+            <p><kbd>Ctrl</kbd> + right click to decrease size</p>
+          </div>
+        </div>
+      </section>
+    <script src="cart.js"></script>
+    </body>
+</html>

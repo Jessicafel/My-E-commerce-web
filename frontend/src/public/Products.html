@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bread</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="navlogo">
+                <img src="image/logo.png" class="logo">
+            </a>
+            <ul class="navmenu">
+                <li class="navhome">
+                    <a href="index.html" class="navlink">Home</a>
+                </li>
+                <li class="navproduct">
+                    <a href="Products.html" class="navlink">Products</a>
+                </li>
+                <li class="navabout">
+                    <a href="Order.html" class="navlink">Orders</a>
+                </li>
+                <li class="navcart">
+                    <a href="Cart.html" class="navlink">Cart</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner">
+        <image src="image/Banner1.png" class="bannerimage" id="slide1">
+    </section>
+    <main>
+        <div class="product-container">
+            <div class="product">
+                <img src="image/WhiteDress.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Dreamy White Dress</h1>
+                        <div class="onerow">
+                        <h2 class="text">$54</h2>
+                        <div class="AddButton"> 
+                            <button class="addbtn" 
+                            data-id="1" 
+                            data-name="Dreamy White Dress" 
+                            data-price="54" 
+                            data-img="image/WhiteDress.png"
+                            data-type="dress">Add</button>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlackDress.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Minimalist Black Dress</h1>
+                        <div class="onerow">
+                        <h2 class="text">$47.89</h2>
+                        <div class="AddButton"> 
+                            <button class="addbtn"
+                            data-id="2" 
+                            data-name="Minimalist Black Dress" 
+                            data-price="47.89" 
+                            data-img="image/BlackDress.png"
+                            data-type="dress">Add</button>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlueDress.png" class="productimage" >
+                    <div class="imagetext">
+                        <h1 class="text">Corset Blue Dress</h1>
+                        <div class="onerow">
+                            <h2 class="text">$49.99</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                data-id="3" 
+                                data-name="Corset Blue Dress" 
+                                data-price="49.99" 
+                                data-img="image/BlueDress.png"
+                                data-type="dress">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlueFlowerDress.png" class="productimage" >
+                    <div class="imagetext">
+                        <h1 class="text">Fairy Flower Blue Dress</h1>
+                        <div class="onerow">
+                            <h2 class="text">$58</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                data-id="4" 
+                                data-name="Fairy Flower Blue Dress" 
+                                data-price="58" 
+                                data-img="image/BlueFlowerDress.png"
+                                data-type="dress">Add</button>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/PinkBowTop.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Pink Bow Sabrina Top</h1>
+                        <div class="onerow">
+                            <h2 class="text">$28.98</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                data-id="5" 
+                                data-name="Pink Bow Sabrina Top" 
+                                data-price="28.98" 
+                                data-img="image/PinkBowTop.png"
+                                data-type="top">Add</button>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/PinkCorsetTop.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Pink Corset Top</h1>
+                        <div class="onerow">
+                            <h2 class="text">$35.50</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                data-id="6" 
+                                data-name="Pink Corset Top" 
+                                data-price="35.50" 
+                                data-img="image/PinkCorsetTop.png"
+                                data-type="top">Add</button>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BeigeTop.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Polo Beige Top</h1>
+                        <div class="onerow">
+                            <h2 class="text">$28.99</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                data-id="7" 
+                                data-name="Polo Beige Top" 
+                                data-price="28.99" 
+                                data-img="image/BeigeTop.png"
+                                data-type="top">Add</button>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlackTop.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Sabrina Black Top</h1>
+                        <div class="onerow">
+                            <h2 class="text">$24</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                data-id="8" 
+                                data-name="Sabrina Black Top" 
+                                data-price="24" 
+                                data-img="image/BlackTop.png"
+                                data-type="top">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/WhiteMidSkirt.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">White Summer Skirt</h1>
+                        <div class="onerow">
+                            <h2 class="text">$39.99</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                data-id="9" 
+                                data-name="White Summer Skirt" 
+                                data-price="39.99" 
+                                data-img="image/WhiteMidSkirt.png"
+                                data-type="bottom">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/WhiteShortSkirt.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">White Bow Mini Skirt</h1>
+                        <div class="onerow">
+                            <h2 class="text">$32</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="10" 
+                                    data-name="White Bow Mini Skirt" 
+                                    data-price="32" 
+                                    data-img="image/WhiteShortSkirt.png"
+                                    data-type="bottom">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/FlareJeans.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Star Flare Jeans</h1>
+                        <div class="onerow">
+                            <h2 class="text">$43</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                data-id="11" 
+                                data-name="Star Flare Jeans" 
+                                data-price="43" 
+                                data-img="image/FlareJeans.png"
+                                data-type="bottom">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/ShortBlackPants.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Short Black Pants</h1>
+                        <div class="onerow">
+                            <h2 class="text">$35</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="12" 
+                                    data-name="Short Black Pants" 
+                                    data-price="35" 
+                                    data-img="image/ShortBlackPants.png"
+                                    data-type="bottom">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/PinkSlides.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Pink Bow Slides</h1>
+                        <div class="onerow">
+                            <h2 class="text">$43</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                data-id="13" 
+                                data-name="Pink Bow Slides" 
+                                data-price="43" 
+                                data-img="image/PinkSlides.png"
+                                data-type="acc">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/FlowerNecklace.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">18K Flower Necklace</h1>
+                        <div class="onerow">
+                            <h2 class="text">$120</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="14" 
+                                    data-name="18K Flower Necklace" 
+                                    data-price="120" 
+                                    data-img="image/FlowerNecklace.png"
+                                    data-type="acc">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/LongNecklace.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Short Black Pants</h1>
+                        <div class="onerow">
+                            <h2 class="text">$35</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="12" 
+                                    data-name="Short Black Pants" 
+                                    data-price="35" 
+                                    data-img="image/ShortBlackPants.png"
+                                    data-type="acc">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/CreamBag.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Leather Cream Bag</h1>
+                        <div class="onerow">
+                            <h2 class="text">$70</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="16" 
+                                    data-name="Leather Cream Bag" 
+                                    data-price="70" 
+                                    data-img="image/CreamBag.png"
+                                    data-type="acc">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlackBerret.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Black Berret</h1>
+                        <div class="onerow">
+                            <h2 class="text">$19</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="17" 
+                                    data-name="Black Berret" 
+                                    data-price="19" 
+                                    data-img="image/BlackBerret.png"
+                                    data-type="acc">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BluePoloDress.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Blue Polo Dress</h1>
+                        <div class="onerow">
+                            <h2 class="text">$46</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="18" 
+                                    data-name="Blue Polo Dress" 
+                                    data-price="46" 
+                                    data-img="image/BluePoloDress.png"
+                                    data-type="dress">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/WhiteMidSkirt.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">White Bow Mid Skirt</h1>
+                        <div class="onerow">
+                            <h2 class="text">$38</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="19" 
+                                    data-name="White Bow Mid Skirt" 
+                                    data-price="38" 
+                                    data-img="image/WhiteMidSkirt.png"
+                                    data-type="bottom">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlackTieShirt.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Tie Crop Top Shirt</h1>
+                        <div class="onerow">
+                            <h2 class="text">$28.45</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="20" 
+                                    data-name="Tie Crop Top Shirt" 
+                                    data-price="28.45" 
+                                    data-img="image/BlackTieShirt.png"
+                                    data-type="top">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/WhiteCargoTrousers.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">White Cargo Trousers</h1>
+                        <div class="onerow">
+                            <h2 class="text">$39.99</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="21" 
+                                    data-name="TWhite Cargo Trousers" 
+                                    data-price="39.99" 
+                                    data-img="image/WhiteCargoTrousers.png"
+                                    data-type="bottom">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlackBoyCap.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Black Boy Cap</h1>
+                        <div class="onerow">
+                            <h2 class="text">$20</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="22" 
+                                    data-name="Black Boy Cap" 
+                                    data-price="20" 
+                                    data-img="image/BlackBoyCap.png"
+                                    data-type="acc">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/WhiteQuarterJacket.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">White Quarter Jacket</h1>
+                        <div class="onerow">
+                            <h2 class="text">$41.30</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="23" 
+                                    data-name="White Quarter Jacket" 
+                                    data-price="41.30" 
+                                    data-img="image/WhiteQuarterJacket.png"
+                                    data-type="top">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlackMiniSkirt.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Black Mini Skirt</h1>
+                        <div class="onerow">
+                            <h2 class="text">$26.68</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="24" 
+                                    data-name="Black Mini Skirt" 
+                                    data-price="26.68" 
+                                    data-img="image/BlackMiniSkirt.png"
+                                    data-type="bottom">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlueBag.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Blue Bag</h1>
+                        <div class="onerow">
+                            <h2 class="text">$45</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="25" 
+                                    data-name="Blue Bag" 
+                                    data-price="45" 
+                                    data-img="image/BlueBag.png"
+                                    data-type="acc">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlueDenimDress.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Denim Dress</h1>
+                        <div class="onerow">
+                            <h2 class="text">$68</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="26" 
+                                    data-name="Denim Dress" 
+                                    data-price="68" 
+                                    data-img="image/BlueDenimDress.png"
+                                    data-type="dress">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BrownCasualPant.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Brown Casual Pants</h1>
+                        <div class="onerow">
+                            <h2 class="text">$31</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="27" 
+                                    data-name="Brown Casual Pants" 
+                                    data-price="31" 
+                                    data-img="image/BrownCasualPant.png""
+                                    data-type="bottom">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlackBootsHeel.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Black Boots Heel</h1>
+                        <div class="onerow">
+                            <h2 class="text">$43</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="28" 
+                                    data-name="Black Boots Heel" 
+                                    data-price="43" 
+                                    data-img="image/BlackBootsHeel.png"
+                                    data-type="acc">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/VNeckShirt.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">V neck shirt</h1>
+                        <div class="onerow">
+                            <h2 class="text">$30.79</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="29" 
+                                    data-name="V neck shirt" 
+                                    data-price="30.79" 
+                                    data-img="image/VNeckShirt.png"
+                                    data-type="top">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlackChocker.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Chocker</h1>
+                        <div class="onerow">
+                            <h2 class="text">$29</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="30" 
+                                    data-name="Chocker" 
+                                    data-price="29" 
+                                    data-img="image/BlackChocker.png"
+                                    data-type="acc">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlueBowTop.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Blue Square Bow Top</h1>
+                        <div class="onerow">
+                            <h2 class="text">$27</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="31" 
+                                    data-name="Blue Square Bow Top" 
+                                    data-price="27" 
+                                    data-img="image/BlueBowTop.png"
+                                    data-type="top">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/WhiteBlouse.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">White Blouse</h1>
+                        <div class="onerow">
+                            <h2 class="text">$22</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="32" 
+                                    data-name="White Blouse" 
+                                    data-price="22" 
+                                    data-img="image/WhiteBlouse.png"
+                                    data-type="top">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlackJacket.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Black Jacket</h1>
+                        <div class="onerow">
+                            <h2 class="text">$47</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="33" 
+                                    data-name="Black Jacket" 
+                                    data-price="47" 
+                                    data-img="image/BlackJacket.png"
+                                    data-type="top">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/SilverButterflyNecklace.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Silver Butterfly Necklace</h1>
+                        <div class="onerow">
+                            <h2 class="text">$55.99</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="34" 
+                                    data-name="Silver Butterfly Necklace" 
+                                    data-price="55.99" 
+                                    data-img="image/SilverButterflyNecklace.png"
+                                    data-type="acc">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlackSneaker.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Black Sneaker</h1>
+                        <div class="onerow">
+                            <h2 class="text">$49</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="35" 
+                                    data-name="Black Sneaker" 
+                                    data-price="49" 
+                                    data-img="image/BlackSneaker.png"
+                                    data-type="acc">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/GreyHoodieDress.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Grey Hoodie Dress</h1>
+                        <div class="onerow">
+                            <h2 class="text">$22</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="36" 
+                                    data-name="Grey Hoodie Dress" 
+                                    data-price="59.99" 
+                                    data-img="image/GreyHoodieDress.png"
+                                    data-type="dress">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/PoloCap.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Polo Cap</h1>
+                        <div class="onerow">
+                            <h2 class="text">$14</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="37" 
+                                    data-name="Polo Cap" 
+                                    data-price="14" 
+                                    data-img="image/PoloCap.png"
+                                    data-type="acc">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/CreamFlowerDress.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Cream Flower Dress</h1>
+                        <div class="onerow">
+                            <h2 class="text">$40</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="38" 
+                                    data-name="Cream Flower Dress" 
+                                    data-price="40" 
+                                    data-img="image/CreamFlowerDress.png"
+                                    data-type="dress">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/WhiteBLackBowTop.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">White with Black Bow Top</h1>
+                        <div class="onerow">
+                            <h2 class="text">$27</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="39" 
+                                    data-name="White with Black Bow Tops" 
+                                    data-price="27" 
+                                    data-img="image/WhiteBLackBowTop.png"
+                                    data-type="top">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlackHighHeel.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Black Block Heels</h1>
+                        <div class="onerow">
+                            <h2 class="text">$56</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="40" 
+                                    data-name="Black Block Heels" 
+                                    data-price="56" 
+                                    data-img="image/WhiteBLackBowTop.png"
+                                    data-type="acc">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/LongBlackSkirt.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Black Long Skirt</h1>
+                        <div class="onerow">
+                            <h2 class="text">$39</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="41" 
+                                    data-name="Black Long Skirt" 
+                                    data-price="39" 
+                                    data-img="image/LongBlackSkirt.png"
+                                    data-type="bottom">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/SilverNecklace.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Silver Necklace</h1>
+                        <div class="onerow">
+                            <h2 class="text">$69.89</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="42" 
+                                    data-name="Silver Necklace" 
+                                    data-price="69.89" 
+                                    data-img="image/SilverNecklace.png"
+                                    data-type="acc">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/WhiteCargoPants.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">White Cargo Pants</h1>
+                        <div class="onerow">
+                            <h2 class="text">$49.99</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="43" 
+                                    data-name="White Cargo Pants" 
+                                    data-price="49.99" 
+                                    data-img="image/WhiteCargoPants.png"
+                                    data-type="bottom">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/BlueShirt.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">Blue Shirt</h1>
+                        <div class="onerow">
+                            <h2 class="text">$37.98</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="44" 
+                                    data-name="Blue Shirt" 
+                                    data-price="37.98" 
+                                    data-img="image/BlueShirt.png"
+                                    data-type="top">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product">
+                <img src="image/WhiteBowMidSkirt.png" class="productimage">
+                    <div class="imagetext">
+                        <h1 class="text">White Bow Mid Skirt</h1>
+                        <div class="onerow">
+                            <h2 class="text">$39.97</h2>
+                            <div class="AddButton"> 
+                                <button class="addbtn"
+                                    data-id="45" 
+                                    data-name="White Bow Mid Skirt" 
+                                    data-price="39.97" 
+                                    data-img="image/WhiteBowMidSkirt.png"
+                                    data-type="bottom">Add</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        
+        </div>
+    </main>
+    <script src="cart.js"></script>
+    </body>
+</html>

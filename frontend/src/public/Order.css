@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: rgb(93, 118, 139);
+}
+.logo{
+    height: 60px;
+    width: auto;
+    margin-left: 15px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin-right: 50px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(247, 242, 240);
+    padding: 0;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+body{
+    background-color: rgb(244, 241, 234);
+}
+main{
+    background-color: rgb(217, 225, 230);
+    width: 95%;
+    height: auto;
+    margin-top: 55px;
+    margin-left: 2.5%;
+    margin-bottom: 10px;
+    overflow-y:hidden;
+    overflow-x: hidden;
+    align-items: center;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-size: 30px;
+    flex-direction:column;
+    color: rgb(93, 118, 139);
+    gap: 20px;
+    overflow-y: auto;
+}
+
+.button{
+    background-color: rgb(244, 241, 234);
+    height: 3.5vw;
+    width: 13vw;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;   
+    transition: background-color 0.3s ease;
+    display: flex;
+}
+.label{
+    font-size: 1.6vw;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(93, 118, 139);
+}
+.image{
+    height: 144px;
+    width :144px;
+    object-fit: contain;
+}
+.productdes{
+    font-size: 18px;
+    font-weight: lighter;
+    white-space: nowrap;
+}
+.item{
+    display: flex;
+    align-items: center;
+    
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    flex-wrap: nowrap;
+}
+.orderid{
+    padding-top: 20 px;
+}
+.time{
+    font-size: 19px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 50px;
+}
